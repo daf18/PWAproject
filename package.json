@@ -1,0 +1,17 @@
+{
+  "name": "labo1",
+  "version": "1.0.0",
+  "description": "Gestion des films",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Andreea Draghici",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "file-system": "^1.2.2",
+    "http-server": "^14.1.0",
+    "nodemon": "^2.0.15"
+  }
+}

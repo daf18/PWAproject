@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+}
+/* Barre de navigation */
+.bg-navbar-perso {
+  background-color: crimson;
+  margin-bottom: 15px;
+}
+.nav-bar-elem {
+  margin-block-end: right !important;
+}
+
+.dropdown-menu {
+  border: 0cm;
+}
+.title {
+  font-family: 'League Gothic';
+  font-size: 25px;
+  margin-right: 2%;
+}
+
+.dropdown-menu a:active {
+  background-color: white;
+  color: black;
+}
+
+/* Les cards des films */
+.col {
+  margin: 15px;
+  padding: 10px;
+}
+
+.imageRatio {
+  aspect-ratio: 2/3 !important;
+}
+.card {
+  padding-bottom: 10px !important;
+}
+
+.FilmTitle {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+.lesButtons{
+  padding: 15px;
+}
+
+.small-middle-container{
+	margin: auto;
+	width: 40%;
+}
+
+.btn{
+  margin: 5px !important;
+}
+
+.permission-notification{
+display: none;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
